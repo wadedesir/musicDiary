@@ -1,0 +1,144 @@
+
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  background: white;
+  /* background-size: cover; */
+  /* font-family: cursive; */
+  height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  color:black;
+}
+
+label {
+  font-size: 2rem;
+}
+
+.btn-lg {
+  background-color: black;
+  border-color: black;
+}
+
+.btn-lg:hover {
+  background-color:#006B9F;
+  border-color: black;
+}
+
+.btn-lg {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.btn-lg:hover {
+  top: -10px;
+}
+
+p {
+  font-size: 2rem;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+}
+p a{
+  color: white;
+  font-size: 2.2rem;
+  border: 2px solid black;
+  padding: 3px;
+  background-color: black;
+  border-color: black;
+  border-radius: 6px;
+}
+
+p a:hover {
+  background-color:#006B9F;
+  border-color: white;
+  text-decoration: none;
+  color:black;
+}
+
+p a {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+p a:hover {
+  top: -10px;
+}
+
+.container .jumbotron h1{
+  font-size: 10rem;
+  color:black;
+}
+
+.container .jumbotron p {
+  font-size: 3.5rem;
+  color:black;
+}
+
+.container .jumbotron a {
+  height: 40px;
+  width: 100px;
+  font-size: 1.8rem;
+}
+
+
+.rainbow{
+  width: 30%;
+  height: 35px;
+  margin-top: 2%;
+  border-radius: 5px;
+  border: none;
+  background: black;
+  color: white;
+  /* height: 80%; */
+}
+.rainbow:hover{
+  background: #12cbc4;
+  background-size: 400% 400%;
+  animation: gradient 2s ease infinite;
+  color: black;
+  font-weight: bold;
+}
+
+.signup{
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+
+.form-group input,
+.form-row input{
+	border:0;
+	height:50px;
+	border-radius:0;
+  border-bottom:1px solid lightgrey;
+  margin-bottom: 5%;
+}
+.form-group input:focus,
+.form-row input:focus{
+  border-bottom:1px solid #007bff;
+  box-shadow:none;
+  outline:0;
+  background-color:#ebebeb;
+}
+
+.checkboxlabel{
+
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
